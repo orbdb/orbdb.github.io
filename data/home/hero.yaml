@@ -1,0 +1,15 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "Shaping the Future of Knowledge Graphs"
+  text: "Orb DB is a fresh start in database design, combining the latest advances in AI and Data Systems to form world's first responsible knowledge graph database. If you like to join the team, we have open positions internationally!"
+
+  buttonPrimary:
+    label: "Apply now"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScr26mpU0wRXR8W5LdlkivUlIwE9DLwNU9xZoDf5pI1K7Lipw/viewform"
+
+  # buttonSecondary:
+  #   label: "Get in touch"
+  #   url: ""
+

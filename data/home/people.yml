@@ -1,0 +1,27 @@
+enabled: true
+id: "people"
+
+content:
+  title: "Team"
+  # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
+  cards:
+    - image: "images/sonia.jpg"
+      name: "Sonia Horchidan"
+      title: "Co-founder "
+      info1: "PhD Candidate @ KTH Royal Institute of Technology"
+      info2: "Ex-Googler"
+      info3: ""
+      twitter: "https://twitter.com/SHorchidan"
+      linkedin: "https://www.linkedin.com/in/sonia-horchidan/"
+      contact: "mailto:sfhor@kth.se"
+
+    - image: "images/paris.jpeg"
+      name: "Paris Carbone"
+      title: "Co-founder "
+      info1: "Assistant Professor @ KTH Royal Institute of Technology"
+      info2: "Open-Source Committer (original Apache Flink team)"
+      info3: ""
+      twitter: "https://twitter.com/SenorCarbone"
+      linkedin: "https://www.linkedin.com/in/paris-carbone-20752726/"
+      contact: "mailto:parisc@kth.se"
+

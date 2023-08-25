@@ -2,7 +2,7 @@ baseURL: "https://orbdb.io/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "ORB DB"
+title: "Orb DB"
 
 # googleAnalytics: ""
 
@@ -10,7 +10,7 @@ summaryLength: 20
 
 params:
   title: "Orb DB"
-  description: "We specialize in providing services to desing websites, applications, build and maintain business for customers."
+  description: ""
   images: 
     - "images/logo.png"
 

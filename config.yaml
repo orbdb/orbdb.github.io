@@ -19,6 +19,6 @@ params:
     backgroundColor: "#FFFFFF"
     faviconColor: "#000000"
 
-  copyright: "© 2023 ORB DB Team"
+  copyright: "© 2023 Orb DB Team"
 
   postProcess: false

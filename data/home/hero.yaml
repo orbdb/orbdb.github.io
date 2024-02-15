@@ -3,13 +3,13 @@ id: "hero"
 
 content:
   title: "Shaping the Future of Knowledge Graphs"
-  text: "Orb DB is a fresh start in database design, combining the latest advances in AI and Data Systems to form world's first responsible knowledge graph database. If you like to join the team, we have open positions internationally!"
+  text: "Orb DB is a fresh start in database design, combining the latest advances in AI and Data Systems to build world's first responsible knowledge graph database. If you like to join the team, we have positions open internationally!"
 
   buttonPrimary:
     label: "Apply now"
     url: "https://forms.gle/oQPQ3HG1CqgdcFsU8"
 
-  # buttonSecondary:
-  #   label: "Get in touch"
-  #   url: ""
+  buttonSecondary:
+    label: "Get in touch"
+    url: "mailto:orbdb@googlegroups.com"
 

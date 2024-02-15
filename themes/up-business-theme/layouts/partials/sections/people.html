@@ -1,7 +1,7 @@
 <style>
    .team-member {
    text-align: center;
-   margin: 20px;
+   margin: 50px;
    flex-basis: calc(40%); /* Distribute in 3 columns, adjust margins */
    box-sizing: border-box;
    }
@@ -36,33 +36,34 @@
       <!-- team-member  -->
       <div class="row justify-content-center">
       	  {{ range .content.cards }}
-	      <div class="team-member col-12 col-xl-4">
-	         {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
-	         {{ with .name }}
-	         <h2 class="text-primary">{{ . }}</h2>
-	         {{ end }}
-	         <!-- {{ with .title }}
-	         <p class="text-black-61"><b>{{ . }}</b></p>
-	         {{ end }} -->
-	         {{ with .info1 }}
-	         <p class="text-black-61">{{ . }}</p>
-	         {{ end }}
-	         {{ with .info2 }}
-	         <p class="text-black-61">{{ . }}</p>
-	         {{ end }}
-	         {{ with .info3 }}
-	         <p class="text-black-61">{{ . }}</p>
-	         {{ end }}
+   	      <div class="team-member col-12 col-xl-4">
+   	         {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
+   	         {{ with .name }}
+   	         <h2 class="text-primary">{{ . }}</h2>
+   	         {{ end }}
+   	         {{ with .title }}
+   	         <p class="text-black-61"><b>{{ . }}</b></p>
+   	         {{ end }}
+   	         {{ with .info1 }}
+   	         <p class="text-black-61">{{ . }}</p>
+   	         {{ end }}
+   	         {{ with .info2 }}
+   	         <p class="text-black-61">{{ . }}</p>
+   	         {{ end }}
+   	         {{ with .info3 }}
+   	         <p class="text-black-61">{{ . }}</p>
+   	         {{ end }}
 
-          <ul class="d-flex justify-content-center justify-content-center list-unstyled">
-             {{ with .contact }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/mail.html" }}</a></li>{{ end }}
-            {{ with .linkedin }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>{{ end }}
-            {{ with .twitter }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
-          </ul>
+             <ul class="d-flex justify-content-center justify-content-center list-unstyled">
+                {{ with .contact }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/mail.html" }}</a></li>{{ end }}
+               {{ with .linkedin }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>{{ end }}
+               {{ with .twitter }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
+             </ul>
 
-	      </div>
+   	      </div>
 	      {{ end }}
   	  </div>
+     <br>
    </div>
 </section>
 

@@ -7,7 +7,7 @@ content:
   cards:
     - image: "images/sonia.jpg"
       name: "Sonia Horchidan"
-      title: "Co-founder "
+      title: "Lead"
       info1: "PhD Candidate @ KTH Royal Institute of Technology"
       info2: "Ex-Googler"
       info3: ""
@@ -17,11 +17,31 @@ content:
 
     - image: "images/paris.jpeg"
       name: "Paris Carbone"
-      title: "Co-founder "
+      title: "Lead"
       info1: "Assistant Professor @ KTH Royal Institute of Technology"
       info2: "Open-Source Committer (original Apache Flink team)"
       info3: ""
       twitter: "https://twitter.com/SenorCarbone"
       linkedin: "https://www.linkedin.com/in/paris-carbone-20752726/"
       contact: "mailto:parisc@kth.se"
+
+    - image: "images/michal.jpeg"
+      name: "Michał Zwolak"
+      title: "Research Engineer"
+      linkedin: "https://www.linkedin.com/in/michalzwolak/"
+
+    - image: "images/panagiotis.jpg"
+      name: "Panagiotis Kaliosis"
+      title: "Research Engineer"
+      linkedin: "https://www.linkedin.com/in/panagiotis-kaliosis-2aa699244/"
+
+    - image: "images/xiangyu.jpeg"
+      name: "Xiangyu Shi"
+      title: "Research Engineer"
+      linkedin: "https://www.linkedin.com/in/xiangyu-shi-bd2002/"
+  
+    - image: "images/fabian.png"
+      name: "Fabian Zeiher"
+      title: "Research Engineer"
+      linkedin: "https://www.linkedin.com/in/fabian-zeiher-17b074211/"
 

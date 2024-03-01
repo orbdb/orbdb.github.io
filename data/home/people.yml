@@ -4,7 +4,7 @@ id: "people"
 content:
   title: "Team"
   # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec quam nibh elit pellentesque velit netus suspendisse. Sed enim, pretium, montes, in ut dolor urna."
-  cards:
+  cardsl:
     - image: "images/sonia.jpg"
       name: "Sonia Horchidan"
       title: "Lead"
@@ -25,6 +25,7 @@ content:
       linkedin: "https://www.linkedin.com/in/paris-carbone-20752726/"
       contact: "mailto:parisc@kth.se"
 
+  cardsr:
     - image: "images/michal.jpeg"
       name: "Michał Zwolak"
       title: "Research Engineer"
@@ -44,4 +45,9 @@ content:
       name: "Fabian Zeiher"
       title: "Research Engineer"
       linkedin: "https://www.linkedin.com/in/fabian-zeiher-17b074211/"
+
+    - image: "images/weijun.jpg"
+      name: "Weijun Huang"
+      title: "Research Engineer"
+      linkedin: "https://www.linkedin.com/in/weijunhuang/"
 

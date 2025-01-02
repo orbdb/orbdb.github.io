@@ -1,0 +1,28 @@
+<section class="section portfolio">
+  <div class="container">
+    <div class="row">
+      {{ range .content }}
+      <div class="col-12 col-md-6 mb-4 d-flex"> 
+        <div class="card p-3 border d-flex flex-column"> 
+          <div class="d-flex flex-column justify-content-between h-100"> 
+            {{ with .pretitle }}
+              <p class="text-danger fw-semibold mb-2">{{ . }}</p>
+            {{ end }}
+            {{ with .title }}
+              <h3 class="fs-4 fw-bold text-primary pb-3">{{ . }}</h3> 
+            {{ end }}
+            {{ with .text }}
+              <p class="text-black-61 pb-3">{{ . }}</p>
+            {{ end }}
+            <div class="">
+              {{ range .buttons }}
+                <a class="text-decoration-none me-3" href="{{ .url }}">{{ .label }}</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

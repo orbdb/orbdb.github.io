@@ -1,16 +1,13 @@
 <style>
    .team-member {
      text-align: center;
-     margin: 50px;
+     margin: 20px;
      box-sizing: border-box;
    }
 
-   .team-memberl-l {
-     flex-basis: calc(40%);
-   }
-
+   .team-memberl-l,
    .team-member-r {
-     flex-basis: calc(25% - 40px);
+     flex-basis: calc(25% - 40px); /* Ensures 4 items per row */
    }
 
    .team-member img {
@@ -33,17 +30,17 @@
 
 <section class="section services py-5">
    <div class="container">
-      <div class="row justify-content-center pb-5">
+      <div class="row justify-content-center">
          <div class="col-12 col-xl-6">
             {{ with .content.title }}
-            <h3 class="fs-1 fw-bold text-center text-black-61 pb-3">{{ . }}</h3>
+            <h3 class="fs-1 fw-bold text-center text-black-61">{{ . }}</h3>
             {{ end }}
          </div>
       </div>
-      <!-- team-members  -->
+      <!-- team-members -->
       <div class="row justify-content-center">
          {{ range .content.cardsl }}
-         <div class="team-member team-memberl-l col-12 col-xl-4">
+         <div class="team-member team-memberl-l col-6 col-md-3">
             {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
             {{ with .name }}
             <h2 class="text-primary">{{ . }}</h2>
@@ -67,14 +64,14 @@
                {{ with .linkedin }}
                <li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>
                {{ end }}
-               {{ with .twitter }}
+<!--                {{ with .twitter }}
                <li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>
-               {{ end }}
+               {{ end }} -->
             </ul>
          </div>
          {{ end }}
          {{ range .content.cardsr }}
-         <div class="team-member team-member-r col-12 col-xl-4">
+         <div class="team-member team-member-r col-6 col-md-3">
             {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
             {{ with .name }}
             <h2 class="text-primary">{{ . }}</h2>
@@ -108,4 +105,3 @@
       <br>
    </div>
 </section>
-

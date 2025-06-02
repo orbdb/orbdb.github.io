@@ -1,18 +1,14 @@
 <style>
    .team-member {
      text-align: center;
-     margin: 10px;
+     margin-top: 20px;
      box-sizing: border-box;
    }
 
-   .team-memberl-l,
-   .team-member-r {
-     flex-basis: calc(25% - 40px); /* Ensures 4 items per row */
-   }
 
    .team-member img {
-     width: 180px;
-     height: 180px;
+     width: 150px;
+     height: 150px;
      border-radius: 20%;
      object-fit: cover;
    }
@@ -41,7 +37,7 @@
       <!-- team-members -->
       <div class="row justify-content-center">
          {{ range .content.cardsl }}
-         <div class="team-member team-memberl-l col-6 col-md-3">
+      <div class="team-member col-4 col-md-2">
             {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
             {{ with .name }}
             <h2 class="text-primary">{{ . }}</h2>
@@ -72,7 +68,7 @@
          </div>
          {{ end }}
          {{ range .content.cardsr }}
-         <div class="team-member team-member-r col-6 col-md-3">
+      <div class="team-member col-4 col-md-2">
             {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
             {{ with .name }}
             <h2 class="text-primary">{{ . }}</h2>
